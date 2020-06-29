@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: HIP Nav Addons For Elementor Pro
- * Description: HIP Nav Addons For Elementor Pro. Adds extra navigation features
- * Plugin URI:  https://hip.agency/
+ * Plugin Name: Nav Menu Extra Options (Elementor Pro)
+ * Description: Extra Options for your Nav Menu on Elementor Pro.
+ * Plugin URI:  https://github.com/chigozieorunta
  * Version:     1.0.0
  * Author:      Hip Creative
- * Author URI:  https://hip.agency/
+ * Author URI:  https://github.com/chigozieorunta
  * Text Domain: hip
  */
 
