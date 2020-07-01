@@ -15,13 +15,13 @@ A simple list of mobile menu options targeted at giving you control over Element
     <li>CTA 1 Button Text</li>
     <li>CTA 1 Button Link</li>
     <li>CTA 1 Button Text Color</li>
-    <li>CTA 1 Button Text Color< on Hover</li>
+    <li>CTA 1 Button Text Color on Hover</li>
     <li>CTA 1 Button Background Color</li>
     <li>CTA 1 Button Background Color on Hover</li>
     <li>CTA 2 Button Text</li>
     <li>CTA 2 Button Link</li>
     <li>CTA 2 Button Text Color</li>
-    <li>CTA 2 Button Text Color< on Hover</li>
+    <li>CTA 2 Button Text Color on Hover</li>
     <li>CTA 2 Button Background Color</li>
     <li>CTA 2 Button Background Color on Hover</li>
 </ul>
