@@ -4,7 +4,7 @@
  * Description: Extra Options for your Nav Menu on Elementor Pro.
  * Plugin URI:  https://github.com/chigozieorunta
  * Version:     1.0.0
- * Author:      Hip Creative
+ * Author:      Chigozie Orunta
  * Author URI:  https://github.com/chigozieorunta
  * Text Domain: hip
  */
@@ -33,7 +33,7 @@ final class Hip_Nav_Addons_Elementor_Pro {
 	}
 
 	public function init_controls() {
-        require_once( __DIR__ . '/controls/hip-nav-menu-addons.php' );
+		require_once( __DIR__ . '/controls/nav-controls.php' );
         new Hip_Nav_Menu_Addons();
 	}
 
