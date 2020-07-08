@@ -25,3 +25,22 @@ A simple list of mobile menu options targeted at giving you control over Element
     <li>CTA 2 Button Background Color</li>
     <li>CTA 2 Button Background Color on Hover</li>
 </ul>
+
+## Extensions
+
+You can extend the addon functionality further by adding in your own controls and specifying the selectors responsible for re-rendering on the preview mode. Use the register_controls method for this. For e.g.
+
+```
+public function register_controls( $element, $args ) {
+		$element->add_control(
+			'myColor',
+			[
+				'label' => __( 'My Color', 'hip' ),
+				'type' => \Elementor\Controls_Manager::COLOR,
+				'selectors' => [
+					'{{WRAPPER}} myCSS Selector' => 'color: {{VALUE}}',
+				],
+			]
+		);
+ }
+ ```
