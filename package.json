@@ -1,0 +1,20 @@
+{
+  "name": "elementor-nav-menu-addon",
+  "version": "1.0.0",
+  "description": "A simple list of mobile menu options targeted at giving you control over Elementor Pro's navigation menu.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chigozieorunta/nav-menu-addon-elementor-pro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chigozieorunta/nav-menu-addon-elementor-pro/issues"
+  },
+  "homepage": "https://github.com/chigozieorunta/nav-menu-addon-elementor-pro#readme"
+}
