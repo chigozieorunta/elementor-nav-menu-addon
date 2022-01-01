@@ -1,0 +1,13 @@
+{
+    "name": "chigozieorunta/elementor-nav-menu-addon",
+    "description": "A simple plugin to extend your Elementor Pro Nav Menu.",
+    "type": "wordpress-plugin",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Chigozie Orunta",
+            "email": "chigozieorunta@yahoo.com"
+        }
+    ],
+    "require": {}
+}
