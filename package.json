@@ -1,7 +1,7 @@
 {
   "name": "elementor-nav-menu-addon",
   "version": "1.0.0",
-  "description": "A simple list of mobile menu options targeted at giving you control over Elementor Pro's navigation menu.",
+  "description": "A simple plugin to extend your Elementor Pro Nav Menu.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "GPL",
   "bugs": {
     "url": "https://github.com/chigozieorunta/nav-menu-addon-elementor-pro/issues"
   },
