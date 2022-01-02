@@ -18,5 +18,15 @@
     "phpunit/phpunit": "^8.5",
     "mockery/mockery": "^1.3",
     "wp-coding-standards/wpcs": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "ENMA\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ENMA\\": "tests/"
+    }
   }
 }
