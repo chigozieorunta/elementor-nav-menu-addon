@@ -65,7 +65,7 @@ Note that both Node.js and PHP 7.2 or later are required on your computer for ru
 vagrant up
 ```
 
-which will make it available at [slack-bot.local](http://enma.local).
+which will make it available at [enma.local](http://enma.local).
 
 Use the included wrapper command for running scripts inside the Docker container running inside Vagrant:
 
