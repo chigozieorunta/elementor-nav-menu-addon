@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chigozieorunta/nav-menu-addon-elementor-pro.git"
+    "url": "git+https://github.com/chigozieorunta/elementor-nav-menu-addon.git"
   },
   "keywords": [],
   "author": "",
   "license": "GPL",
   "bugs": {
-    "url": "https://github.com/chigozieorunta/nav-menu-addon-elementor-pro/issues"
+    "url": "https://github.com/chigozieorunta/elementor-nav-menu-addon/issues"
   },
-  "homepage": "https://github.com/chigozieorunta/nav-menu-addon-elementor-pro#readme",
+  "homepage": "https://github.com/chigozieorunta/elementor-nav-menu-addon#readme",
   "devDependencies": {
     "browser-sync": "^2.27.7",
     "gulp": "^4.0.2",
