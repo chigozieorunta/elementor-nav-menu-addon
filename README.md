@@ -2,7 +2,9 @@
 
 A simple plugin to extend your Elementor Pro Nav Menu.
 
-## Controls
+## Addon Controls
+
+By default, Elementor comes with preset options for configuring the Elementor Pro Navigation Module. The following controls have been added to help extend the usefulness of the module on sites built using Elementor.
 
 <ul>
     <li>Parent Menu Border Width</li>
