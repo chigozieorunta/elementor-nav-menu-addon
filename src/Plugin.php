@@ -1,20 +1,48 @@
 <?php
+/**
+ * Plugin Class
+ *
+ * @package ENMA
+ */
 
-final class Hip_Nav_Addons_Elementor_Pro {
+namespace ENMA;
 
-	private static $_instance = null;
+/**
+ * Plugin entry point
+ */
+class Plugin {
 
-	public static function instance() {
-		if ( is_null( self::$_instance ) ) {
-			self::$_instance = new self();
-		}
-		return self::$_instance;
-	}
+	/**
+	 * Plugin's singleton instance
+	 *
+	 * @var object
+	 */
+	private static $instance;
 
+	/**
+	 * Constructor
+	 *
+	 * @return void
+	 */
 	public function __construct() {
 		add_action( 'plugins_loaded', [ $this, 'init' ] );
-
 	}
+
+	/**
+	 * Plugin Entry point based on Singleton
+	 *
+	 * @return Plugin $plugin Instance of the plugin abstraction.
+	 */
+	public static function init() {
+		if ( null === self::$instance ) {
+			self::$instance = new self();
+		}
+
+		return self::$instance;
+	}
+}
+
+/*final class Hip_Nav_Addons_Elementor_Pro {
 
 	public function init() {
 		add_action( 'elementor/controls/controls_registered', [ $this, 'init_controls' ] );
@@ -27,5 +55,3 @@ final class Hip_Nav_Addons_Elementor_Pro {
 	}
 
 }
-
-Hip_Nav_Addons_Elementor_Pro::instance();
