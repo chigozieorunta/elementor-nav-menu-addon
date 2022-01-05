@@ -25,7 +25,17 @@ class Plugin {
 	 * @return void
 	 */
 	public function __construct() {
-		add_action( 'plugins_loaded', [ $this, 'init' ] );
+		//add_action( 'plugins_loaded', [ $this, 'init' ] );
+		add_action( 'elementor/controls/controls_registered', [ $this, 'init_controls' ] );
+	}
+
+	/**
+	 * Initialize Addon Controls
+	 *
+	 * @return void
+	 */
+	public function init_controls() {
+		$this->addon = new Addon();
 	}
 
 	/**
@@ -40,18 +50,4 @@ class Plugin {
 
 		return self::$instance;
 	}
-}
-
-/*final class Hip_Nav_Addons_Elementor_Pro {
-
-	public function init() {
-		add_action( 'elementor/controls/controls_registered', [ $this, 'init_controls' ] );
-
-	}
-
-	public function init_controls() {
-		require_once( __DIR__ . '/controls/nav-controls.php' );
-        new Hip_Nav_Menu_Addons();
-	}
-
 }
