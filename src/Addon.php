@@ -44,7 +44,7 @@ class Addon extends \Elementor\Widget_Base {
         $element->start_controls_section(
 			'hip-nav-addon-section',
 			[
-				'label' => __( 'Hip Mobile Menu Options', 'hip' ),
+				'label' => __( 'Addon Options', 'hip' ),
 				'tab' => \Elementor\Controls_Manager::TAB_STYLE,
 			]
 		);
