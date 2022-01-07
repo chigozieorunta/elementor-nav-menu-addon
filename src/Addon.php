@@ -309,6 +309,13 @@ class Addon extends \Elementor\Widget_Base {
 		$element->end_controls_section();
 	}
 
+	/**
+	 * Elementor Render method
+	 *
+	 * @param string $element
+	 *
+	 * @return void
+	 */
 	public function before_render_element($element) {
 		$settings = $element->get_settings();
 		$cta = '';
