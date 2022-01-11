@@ -14,15 +14,9 @@
  * @package ENMA
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
-
 // Support for site-level autoloading.
-$autoload = __DIR__ . '/vendor/autoload.php';
-
-if ( file_exists( $autoload ) ) {
-	require_once $autoload;
+if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
+	require_once __DIR__ . '/vendor/autoload.php';
 }
 
 // Initialize plugin loading
