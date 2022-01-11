@@ -25,8 +25,8 @@ class Plugin {
 	 * @return void
 	 */
 	public function __construct() {
-		//add_action( 'plugins_loaded', [ $this, 'init' ] );
-		add_action( 'elementor/controls/controls_registered', [ $this, 'init_controls' ] );
+		add_action( 'plugins_loaded', [ $this, 'init_controls' ] );
+		//add_action( 'elementor/controls/controls_registered', [ $this, 'init_controls' ] );
 	}
 
 	/**
@@ -35,7 +35,7 @@ class Plugin {
 	 * @return void
 	 */
 	public function init_controls() {
-		$this->addon = new Addon();
+		//$this->addon = new Addon();
 	}
 
 	/**
